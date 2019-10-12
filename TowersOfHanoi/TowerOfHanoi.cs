@@ -5,7 +5,10 @@ using System.Text;
 
 namespace TowersOfHanio
 {
-    class TowerOfHanio
+    /// <summary>
+    /// a recursive algorithm to solve the tower of Hanio
+    /// </summary>
+    class TowerOfHanoi
     {
         private string[] Pegs = { "A", "B", "C" };
 
@@ -17,7 +20,7 @@ namespace TowersOfHanio
 
 
 
-        public TowerOfHanio(int level)
+        public TowerOfHanoi(int level)
         {
             if (level < 1) level = 1;
             this.Level = level;

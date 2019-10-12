@@ -21,7 +21,7 @@ namespace TowersOfHanio
 
             Console.WriteLine($"Towers of Hanio, Level: {level}");
 
-            var tower = new TowerOfHanio(level);
+            var tower = new TowerOfHanoi(level);
             var solution = tower.Solve();
             foreach (var s in solution)
                 Console.WriteLine(s);
